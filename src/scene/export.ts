@@ -128,6 +128,10 @@ export const exportToSvg = async (
         font-family: "Cascadia";
         src: url("https://excalidraw.com/Cascadia.woff2");
       }
+      @font-face {
+        font-family: "Chinese";
+        src: url("https://[此处填你自己的域名地址]/Chinese.woff2");
+      }
     </style>
   </defs>
   `;
